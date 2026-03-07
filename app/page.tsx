@@ -27,7 +27,7 @@ export default function Home() {
                 setProgress({ 
                     part: latestProg.part ?? 1, 
                     episode: latestProg.episode ?? 1,
-                    chapter: latestProg.chapter ?? 79
+                    chapter: latestProg.chapter ?? null
                 });
             }
         } catch {}
